@@ -1,0 +1,40 @@
+{
+	"error": {
+		"inv_cmd": "Invalid command provided.",
+		"adm_cmd": "You can't execute admin commands!",
+		"cmd_run": "This command cannot be executed now.",
+		"not_suc": "An error was occured which already sent to creator.",
+		"unk_err": "Unknown error.",
+		"req_err": "Request error."
+	},
+	"cmds": {
+		"not_des": "no description",
+
+		"eval": {
+			"args": "<code>",
+			"desc": "executes code"
+		},
+		"shell": {
+			"args": "<code>",
+			"desc": "executes code in Unix shell"
+		},
+		"ping": {
+			"desc": "ping pong",
+
+			"pat": "Pong! %ds. Uptime: %.1f days (%.1fh, %.1fm.)"
+		},
+		"rub": {
+			"args": "[valute]...",
+			"desc": "ruble course",
+
+			"cur": "Currency at %s:\n%s",
+			"notf": "\nNot found: ",
+			"prov": "\nData provided from central bank of Russia."
+		},
+		"start": {
+			"desc": "getting started",
+
+			"msg": "Hi! I'm Computer - an open-source bot.\nIf you looking for source code: %s"
+		}
+	}
+}
